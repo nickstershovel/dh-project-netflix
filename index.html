@@ -5,10 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
     <title>Netflix Italia - Guarda serie TV online, Guarda film online</title>
 </head>
-<body>
-    
-</body>
+    <body>
+        <div class="banner"> <!--Banner bianco in cima alla pagina-->
+            <div class="banner-badge">Novità!</div>
+            <div class="banner-text"> <!--Testo del banner-->
+                <span>
+                    Piani ora a partire da <span class="banner-price">5,49 €</span>
+                </span>
+            </div>
+            <div class="banner-button"> <!--Link "scopri di più"-->
+                <a class="banner-button-link" href="#">Scopri di più</a>
+            </div>
+            <header class="showcase">
+                <div class="showcase-top"> <!--Parte superiore showcase-->
+                    <div class="showcase-logo"><img src="resources/netflixlogo.png" alt="Netflix"></div> <!--Logo netflix a sinistra-->
+                    <div class="showcase-languageselector"> <!--Selezione lingua-->
+                        <select name="language" id="language">
+                        <option value="italiano" selected>Italiano</option>
+                        <option value="english">English</option>
+                    </select>
+                </div>
+                <div class="loginbutton"><!--Pulsante login in alto a destra-->
+                    <a href="#" class="loginbutton-link">Accedi</a>
+                </div>
+                </div>
+                <div class="showcase-content"> <!--Contenuto centrale showcase-->
+                    <h1>Film, serie TV e tanto altro. Senza limiti.</h1>
+                    <h2>Guarda ciò che vuoi ovunque. Disdici quando vuoi.</h2>
+                    <p>Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti o riattivare il tuo abbonamento.</p>
+                    <input type="email" placeholder="Indirizzo email"> <a href="#" class="emailsend">Inizia</a>
+                </div>
+            </header>   
+    </body>
 </html>
