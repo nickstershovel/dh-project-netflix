@@ -1,0 +1,76 @@
+@media only screen and (min-width: 1450px),
+    only screen and (min-width: 950px)
+    and (max-width: 1449px)
+    {
+        .faq-section .faq-text .email-form {
+            max-width: 950px;
+            padding-top: 0.85rem;
+        }
+
+        .faq-section .faq-text .email-form .email-form-title {
+            font-size: 1.2rem;
+            max-width: none;
+            padding-bottom: 20px;
+        }
+
+        .faq-section .faq-text .email-form .email-form-lockup {
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+        }
+
+        .faq-section .faq-text .email-form .email-form-lockup .ul-form {
+            flex: 1 0 auto;
+            text-align: right;
+            vertical-align: top;
+        }
+
+        .faq-section .faq-text .email-form .email-form-lockup .ul-form .list-form .div-input-responsive {
+            display: inline-block;
+        }
+
+        .faq-section .faq-text .email-form .email-form-lockup .button-container {
+            display: inline-block;
+            flex: 1 0 auto;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form {
+            border-bottom-left-radius: 0;
+            border: 0;
+            border-left: 1px solid #333;
+            border-top-left-radius: 0;
+            margin: 0 !important;
+            padding: 0 1em;
+        }
+
+        .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form .text-span {
+            padding: .5rem 0;
+        }
+}
+
+@media only screen and (min-width: 1450px) {
+    .ul-form .list-form .div-input-responsive .div-input-place .input-label .input-field {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        height: 70px !important;
+        min-width: 500px;
+    }
+
+    .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form { 
+        font-size: 1.875rem;
+        min-height: 70px;
+    }
+
+    .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form:after {
+        min-height: 70px;
+    }
+
+}
+
+@media only screen and (min-width: 740px) {
+    .div-input-place .input-label .placeLabel {
+        font-size: 16px;
+    }
+}
