@@ -1,7 +1,7 @@
 .faq-section {
     position: relative;
     padding: 70px 45px;
-    margin-bottom: #222;
+    border-bottom: 8px solid #222;
     background-color: #000000;
     color: white;
     text-align: center;
@@ -9,7 +9,7 @@
 
 .faq-section .faq-text .faq-title {
     margin: 0 0 .5rem 0;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 3.125rem;
     line-height: 1.1;
 }
@@ -37,7 +37,7 @@
     padding: 0.8em 2.2em 0.8em 1.2em;
     border: none;
     font-size: 26px;
-    font-weight: 500;
+    font-weight: 400;
     color: white;
     background-color: rgb(48, 48, 48);
     cursor: pointer;
@@ -64,7 +64,7 @@
 .faq-list .faq-list-item .faq-answer {
     text-align: center;
     font-size: 26px;
-    font-weight: 500;
+    font-weight: 400;
     background-color: rgb(48, 48, 48);
 }
 
