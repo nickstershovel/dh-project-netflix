@@ -7,11 +7,6 @@
     text-align: center;
 }
 
-/* .faq-section .faq-text {
-    display: flex;
-    flex-direction: column;
-} */
-
 .faq-section .faq-text .faq-title {
     margin: 0 0 .5rem 0;
     font-weight: 700;
