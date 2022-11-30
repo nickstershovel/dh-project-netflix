@@ -1,8 +1,12 @@
 footer {
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .questions {
   color: #6f7173;
+  margin-left: 2.9%;
 }
 .phone {
   color: #6f7173;
@@ -27,5 +31,23 @@ footer {
 }
 .country {
   color: #6f7173;
-  font-size: 12px;
+  font-size: 15px;
+  margin-left: 2.9%;
+}
+
+.langselect {
+  border: solid 1px #6f7173;
+  height: 50px;
+  width: 150px;
+  text-align: right;
+  margin-left: 3%;
+}
+#language {
+  background-color: black;
+  color: #6f7173;
+  font-size: 20px;
+  border: none;
+  padding: 5%;
+  margin-right: 4%;
+  margin-top: 4%;
 }
