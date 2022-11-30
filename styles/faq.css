@@ -50,14 +50,10 @@
     right: 1em;
     top: 50%;
     fill: white;
-}
-
-.svg-closed {
     transform: translateY(-50%) rotate(-45deg);
 }
-
-.svg-open {
-    transform: translateY(-50%);
+.svg-icon.svg-icon-thin-x.open {
+    transform: translateY(-50%) !important;
 }
 
 
@@ -66,6 +62,8 @@
     font-size: 26px;
     font-weight: 400;
     background-color: rgb(48, 48, 48);
+    max-height: 0;
+    overflow: hidden;
 }
 
 .faq-list .faq-list-item .faq-answer span {
@@ -74,9 +72,13 @@
     text-align: left;
 }
 
-.faq-list .faq-list-item .closed {
-    max-height: 0;
-    overflow: hidden;
+.faq-list .faq-list-item .faq-answer span a {
+    color: white;
+}
+
+.faq-list .faq-list-item .open {
+    max-height: initial;
+    overflow: visible;
 }
 
 
