@@ -128,15 +128,29 @@
     display: block;
     font-size: 16px;
     line-height: normal;
+    outline: 0 !important;
+}
+
+.ul-form .list-form .div-input-responsive .div-input-place .input-label .input-field:focus {
+    border-color: #0071eb;
+    outline: none;
+}
+
+.ul-form .list-form .div-input-responsive .div-input-place .input-label .input-field:focus+.placeLabel {
+    font-size: 11px;
+    transform: translateY(0);
+    top: 4px;
 }
 
 .ul-form .list-form .div-input-responsive .div-input-place .input-label .placeLabel {
     position: absolute;
+    font-size: 14px;
     left: 10px;
     top: 50%;
     transform: translateY(-50%);
     color: #8c8c8c;
     font-weight: 400;
+    transition: all .2s;
 }
 
 .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form {
@@ -156,6 +170,7 @@
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
+    border: none;
 }
 
 .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form:hover {
