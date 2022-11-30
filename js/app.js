@@ -12,11 +12,9 @@ function openAnswer(number){
 
 function checkClass(items,element){
     items.forEach(e => {
-        if(e == element){
-            element.classList.toggle('open')
-        }else{
+        e == element ? 
+            element.classList.toggle('open'): 
             e.classList.remove('open');
-        }
     });
     return;
 }
