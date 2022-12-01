@@ -49,7 +49,7 @@ footer {
   border: none;
   padding: 10%;
   appearance: none;
-  background: url(/resources/arrow.svg) no-repeat;
+  background: url(../resources/arrow.svg) no-repeat;
   background-size: 10px 10px;
   background-position: left 100% bottom 50%;
 }
