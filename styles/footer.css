@@ -1,0 +1,60 @@
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.questions {
+  color: #6f7173;
+  margin-left: 2.9%;
+}
+.phone {
+  color: #6f7173;
+  text-decoration: none;
+}
+.phone:hover {
+  text-decoration: underline;
+}
+.listelement {
+  text-decoration: none;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-bottom: 12px;
+  width: 20%;
+}
+.list {
+  color: #6f7173;
+  text-decoration: none;
+}
+.list:hover {
+  text-decoration: underline;
+}
+.country {
+  color: #6f7173;
+  font-size: 15px;
+  margin-left: 2.9%;
+}
+
+.langselect {
+  border: solid 1px #6f7173;
+  height: 60px;
+  width: 160px;
+  margin-left: 3%;
+  text-align: center;
+}
+#language {
+  background-color: black;
+  color: #6f7173;
+  font-size: 22px;
+  border: none;
+  padding: 10%;
+  appearance: none;
+  background: url(../resources/arrow.svg) no-repeat;
+  background-size: 10px 10px;
+  background-position: left 100% bottom 50%;
+}
+
+#globe {
+  padding-right: 7%;
+  margin-top: 12%;
+}
