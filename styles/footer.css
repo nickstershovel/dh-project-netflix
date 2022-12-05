@@ -4,45 +4,44 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
 }
-.questions {
+footer .questions {
   color: #6f7173;
   margin-left: 2.9%;
 }
-.phone {
+footer .questions .phone {
   color: #6f7173;
   text-decoration: none;
 }
-.phone:hover {
+footer .phone:hover {
   text-decoration: underline;
 }
-.listelement {
+footer .links .listelement {
   text-decoration: none;
   box-sizing: border-box;
   display: inline-block;
   margin-bottom: 12px;
   width: 20%;
 }
-.list {
+footer .links .listelement .list {
   color: #6f7173;
   text-decoration: none;
 }
-.list:hover {
+footer .links .list:hover {
   text-decoration: underline;
 }
-.country {
-  color: #6f7173;
+footer .country {
   font-size: 15px;
   margin-left: 2.9%;
+  color: #6f7173;
 }
-
-.langselect {
+footer .langselect {
   border: solid 1px #6f7173;
   height: 60px;
   width: 160px;
   margin-left: 3%;
   text-align: center;
 }
-#language {
+footer .langselect #language {
   background-color: black;
   color: #6f7173;
   font-size: 22px;
@@ -53,8 +52,9 @@ footer {
   background-size: 10px 10px;
   background-position: left 100% bottom 50%;
 }
-
-#globe {
+footer .langselect #language #globe {
   padding-right: 7%;
   margin-top: 12%;
 }
+
+/*# sourceMappingURL=footer.css.map */
