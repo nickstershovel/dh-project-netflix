@@ -1,0 +1,200 @@
+/*REGOLE GENERALI*//*REGOLE GENERALI*//*REGOLE GENERALI*/
+*{
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+:root{
+    --primary-color: #E50914;
+}
+a{
+    text-decoration: none;
+}
+.container, header{
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+/*FINE REGOLE GENERALI*//*FINE REGOLE GENERALI*//*FINE REGOLE GENERALI*/
+
+/*BANNER CSS*//*BANNER CSS*//*BANNER CSS*/
+.banner-container{
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    min-height: 4rem;
+    margin: 0;
+    height: 66px;
+}
+    .banner-badge{
+        background-color: #e50914;
+        border-radius: 17px;
+        color: #fff;
+        font-size: .8rem;
+        font-weight: 600;
+        margin: 0.5rem 1rem;
+        padding: 0.2rem 0.5rem;
+        text-transform: uppercase;
+    }
+    .banner-text{
+        font-size: 1.1rem;
+    }
+    .banner-price{
+        font-size: 1.3rem;
+        font-weight: 800
+    }
+    .banner-button{
+        align-items: center;
+        padding: 0 0 0 16px;
+        color: #0071eb;
+        margin-left: 0;
+        display: flex;
+        font-size: 1rem;
+        font-weight: 700;
+        justify-content: center;
+    }
+/*FINE BANNER CSS*//*FINE BANNER CSS*//*FINE BANNER CSS*/
+
+/*SHOWCASE CSS*//*SHOWCASE CSS*//*SHOWCASE CSS*/
+.showcase-logo{
+    fill: var(--primary-color);
+    margin-right: 70vmax;
+}
+.showcase-container{
+    width: 100%;
+    height: 107vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.6) url("../resources/netflixbackground.jpg") no-repeat center/cover;
+}
+    img{ //Problema quando pagina viene ridotta, spazio bianco sotto//
+        width: 100%;
+    }
+    .showcase-top-container{
+        display:flex;
+        flex-wrap:none;
+        height: 5rem;
+        margin: 0 auto;
+        max-width: 1920px;
+        padding-top: 40px;
+        padding-left: 40px;
+        width: 100%;
+    }
+    .showcase-container::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        background: rgba(0, 0, 0, 0.5);
+        box-shadow: inset 10px 10px 250px #000000, inset -10px -10px 250px #000000;
+    }
+    header div.select svg{
+        height: 16px;
+        position: absolute;
+        margin-left: 6px;
+        margin-top: 10px;
+    }
+    .languageselector-btn{ /*DA SISTEMARE*/
+        line-height: 1.3em;
+        padding-left: 1.3rem;
+        padding-right: 0.1rem;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        display: inline-block;
+        border: 1px solid #aaa;
+        background: rgba(0,0,0,.4);
+        color: #fff;
+        margin-right: 40px;
+        border-radius: 3px;
+        font-size: .875rem;
+        .language{
+            background-color: lightgrey;
+            color: grey;
+    }
+}
+    .loginbutton{
+        display: inline-block;
+        background: var(--primary-color);
+        color: #fff;
+        padding: 0.4rem 1.3rem;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+        border-radius: 3px;
+        }
+
+    .showcase-content-container{
+        color:white;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: transparent;
+        border-bottom: 8px solid #222;
+        color: #fff;
+        margin-bottom: 0;
+        padding: 50px 5%;
+        padding-top: 10rem;
+        padding-bottom: 13rem;
+        position: relative;
+        h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            line-height: 1.1;
+            margin-bottom: 0.5rem;
+        }
+        h2{
+            font-size: 1.625rem;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+        h3{
+            font-size: 1.2rem;
+            padding-bottom: 40px;
+            font-weight: 400;
+            margin-top: 30px;
+            padding: 0 5%;
+            margin-bottom: 10px;
+        }
+    }
+    .email-form-container{ /*DA SISTEMARE*/
+        padding-top: 1rem;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        .email-input{
+            height: 70px;
+            width: 500px;
+            border: 1px solid #8c8c8c;
+            border-radius: 2px;
+            color: #000;
+            font-size: 16px;
+            padding: 10px 11px;
+            outline:none;
+    }
+    .email-send{
+        background: var(--primary-color);
+        color: #fff;
+        height: 70px;
+        padding: 1rem 2rem;
+        padding-right: 1.5rem;
+        padding-left: 1.8rem;
+        font-size: 1.9rem;
+        line-height: 2rem;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+        border-radius: 2px;
+    }
+}
+/*FINE SHOWCASE CSS*//*FINE SHOWCASE CSS*//* FINE SHOWCASE CSS*/
