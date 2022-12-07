@@ -25,7 +25,7 @@
   list-style-type: none;
 }
 .faq-section .faq-text .faq-list .faq-list-item .open {
-  max-height: initial !important;
+  max-height: 1200px !important;
   overflow: visible !important;
 }
 .faq-section .faq-text .faq-list .faq-list-item button.faq-question {
@@ -61,6 +61,7 @@
   background-color: rgb(48, 48, 48);
   max-height: 0;
   overflow: hidden;
+  transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
 }
 .faq-section .faq-text .faq-list .faq-list-item .faq-answer span {
   padding: 1.2em;
