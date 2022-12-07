@@ -47,6 +47,7 @@ a{
         color: #0071eb;
         margin-left: 0;
         display: flex;
+        text-decoration: none;
         font-size: 1rem;
         font-weight: 700;
         justify-content: center;
@@ -64,7 +65,7 @@ a{
     position: relative;
     background: rgba(0, 0, 0, 0.6) url("../resources/netflixbackground.jpg") no-repeat center/cover;
 }
-    img{ //Problema quando pagina viene ridotta, spazio bianco sotto// metto tutto in un div perche il banner è separato
+    img{ 
         width: 100%;
     }
     .showcase-top-container{ //FARE 2 DIV, UNO CHE CONTIENE IL LOGO, L'ALTRO CONTIENE I DUE PULSANTI
