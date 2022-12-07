@@ -1,5 +1,5 @@
-@import url('./faq.css');
-@import url('./media-query-faq.css');
+@import url('./css/faq.css');
+@import url('./css/media-query-faq.css');
 
 body {
     margin: 0;
