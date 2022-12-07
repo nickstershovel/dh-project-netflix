@@ -22,8 +22,6 @@ a{
     background-color: #fff;
     display: flex;
     justify-content: center;
-    min-height: 4rem;
-    margin: 0;
     height: 66px;
 }
     .banner-badge{
@@ -62,17 +60,15 @@ a{
 }
 .showcase-container{
     width: 100%;
-    height: 107vh;
+    height: 100%;   
     position: relative;
     background: rgba(0, 0, 0, 0.6) url("../resources/netflixbackground.jpg") no-repeat center/cover;
 }
-    img{ //Problema quando pagina viene ridotta, spazio bianco sotto//
+    img{ //Problema quando pagina viene ridotta, spazio bianco sotto// metto tutto in un div perche il banner è separato
         width: 100%;
     }
-    .showcase-top-container{
+    .showcase-top-container{ //FARE 2 DIV, UNO CHE CONTIENE IL LOGO, L'ALTRO CONTIENE I DUE PULSANTI
         display:flex;
-        flex-wrap:none;
-        height: 5rem;
         margin: 0 auto;
         max-width: 1920px;
         padding-top: 40px;
