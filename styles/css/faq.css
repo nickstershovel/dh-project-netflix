@@ -1,214 +1,187 @@
 .faq-section {
-    position: relative;
-    padding: 70px 45px;
-    border-bottom: 8px solid #222;
-    background-color: #000000;
-    color: white;
-    text-align: center;
+  position: relative;
+  padding: 70px 45px;
+  border-bottom: 8px solid #222;
+  background-color: #000000;
+  color: white;
+  text-align: center;
 }
-
 .faq-section .faq-text .faq-title {
-    margin: 0 0 .5rem 0;
-    font-weight: 600;
-    font-size: 3.125rem;
-    line-height: 1.1;
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+  font-size: 3.125rem;
+  line-height: 1.1;
 }
-
 .faq-section .faq-text .faq-list {
-    margin: 1.25em auto;
-    padding: 0;
-    max-width: 815px;
+  margin: 1.25em auto;
+  padding: 0;
+  max-width: 815px;
 }
-
 .faq-section .faq-text .faq-list .faq-list-item {
-    display: list-item;
-    margin-bottom: 8px;
-    font-weight: 400;
-    font-size: 24px;
-    list-style-type: none;
+  display: list-item;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 24px;
+  list-style-type: none;
 }
-
+.faq-section .faq-text .faq-list .faq-list-item .open {
+  max-height: initial !important;
+  overflow: visible !important;
+}
 .faq-section .faq-text .faq-list .faq-list-item button.faq-question {
-    position: relative;
-    align-items: flex-start;
-    text-align: left;
-    width: 100%;
-    margin-bottom: 1px;
-    padding: 0.8em 2.2em 0.8em 1.2em;
-    border: none;
-    font-size: 26px;
-    font-weight: 400;
-    color: white;
-    background-color: rgb(48, 48, 48);
-    cursor: pointer;
+  position: relative;
+  align-items: flex-start;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 1px;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  border: none;
+  font-size: 26px;
+  font-weight: 400;
+  color: white;
+  background-color: rgb(48, 48, 48);
+  cursor: pointer;
 }
-
-.svg-icon.svg-icon-thin-x {
-    position: absolute;
-    height: 1em;
-    width: 1em;
-    right: 1em;
-    top: 50%;
-    fill: white;
-    transform: translateY(-50%) rotate(-45deg);
+.faq-section .faq-text .faq-list .faq-list-item button.faq-question .svg-icon.svg-icon-thin-x {
+  position: absolute;
+  height: 1em;
+  width: 1em;
+  right: 1em;
+  top: 50%;
+  fill: white;
+  transform: translateY(-50%) rotate(-45deg);
 }
-.svg-icon.svg-icon-thin-x.open {
-    transform: translateY(-50%) !important;
+.faq-section .faq-text .faq-list .faq-list-item button.faq-question .svg-icon.svg-icon-thin-x.open {
+  transform: translateY(-50%) !important;
 }
-
-
-.faq-list .faq-list-item .faq-answer {
-    text-align: center;
-    font-size: 26px;
-    font-weight: 400;
-    background-color: rgb(48, 48, 48);
-    max-height: 0;
-    overflow: hidden;
+.faq-section .faq-text .faq-list .faq-list-item .faq-answer {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+  background-color: rgb(48, 48, 48);
+  max-height: 0;
+  overflow: hidden;
 }
-
-.faq-list .faq-list-item .faq-answer span {
-    padding: 1.2em;
-    display: block;
-    text-align: left;
+.faq-section .faq-text .faq-list .faq-list-item .faq-answer span {
+  padding: 1.2em;
+  display: block;
+  text-align: left;
 }
-
-.faq-list .faq-list-item .faq-answer span a {
-    color: white;
+.faq-section .faq-text .faq-list .faq-list-item .faq-answer span a {
+  color: white;
 }
-
-.faq-list .faq-list-item .open {
-    max-height: initial;
-    overflow: visible;
-}
-
-
 .faq-section .faq-text .email-form {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
-
 .faq-section .faq-text .email-form .email-form-title {
-    margin: 0 auto;
-    font-weight: 400;
-    font-size: 18px;
-    max-width: 450px;
-    padding: 0 5%;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 450px;
+  padding: 0 5%;
 }
-
 .faq-section .faq-text .email-form .email-form-lockup {
-    text-align: center;
+  text-align: center;
 }
-
 .faq-section .faq-text .email-form .email-form-lockup .ul-form {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-
 .faq-section .faq-text .email-form .email-form-lockup .ul-form .list-form {
-    margin-left: 0;
-    list-style-type: none;
-    margin-bottom: 10px;
+  margin-left: 0;
+  list-style-type: none;
+  margin-bottom: 10px;
 }
-
 .faq-section .faq-text .email-form .email-form-lockup .ul-form .list-form .div-input-responsive {
-    position: relative;
-    max-width: 500px;
+  position: relative;
+  max-width: 500px;
 }
-
-.ul-form .list-form .div-input-responsive .div-input-place {
-    position: relative;
+.faq-section .faq-text .email-form .email-form-lockup .ul-form .list-form .div-input-responsive .div-input-place {
+  position: relative;
 }
-
-.ul-form .list-form .div-input-responsive .div-input-place .input-label .input-field {
-    padding: 10px 10px 0;
-    width: 100%;
-    border: 1px solid #8c8c8c;
-    border-radius: 2px;
-    box-sizing: border-box;
-    color: #000;
-    display: block;
-    font-size: 16px;
-    line-height: normal;
-    outline: 0 !important;
+.faq-section .faq-text .email-form .email-form-lockup .ul-form .list-form .div-input-responsive .div-input-place .input-label .input-field {
+  padding: 10px 10px 0;
+  width: 100%;
+  border: 1px solid #8c8c8c;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #000;
+  display: block;
+  font-size: 16px;
+  line-height: normal;
+  outline: 0 !important;
 }
-
-.ul-form .list-form .div-input-responsive .div-input-place .input-label .input-field:focus {
-    border-color: #0071eb;
-    outline: none;
+.faq-section .faq-text .email-form .email-form-lockup .ul-form .list-form .div-input-responsive .div-input-place .input-label .input-field:focus {
+  border-color: #0071eb;
+  outline: none;
 }
-
-.ul-form .list-form .div-input-responsive .div-input-place .input-label .input-field:focus+.placeLabel {
-    font-size: 11px;
-    transform: translateY(0);
-    top: 4px;
+.faq-section .faq-text .email-form .email-form-lockup .ul-form .list-form .div-input-responsive .div-input-place .input-label .input-field:focus + .placeLabel {
+  font-size: 11px;
+  transform: translateY(0);
+  top: 4px;
 }
-
-.ul-form .list-form .div-input-responsive .div-input-place .input-label .placeLabel {
-    position: absolute;
-    font-size: 14px;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #8c8c8c;
-    font-weight: 400;
-    transition: all .2s;
+.faq-section .faq-text .email-form .email-form-lockup .ul-form .list-form .div-input-responsive .div-input-place .input-label .placeLabel {
+  position: absolute;
+  font-size: 14px;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #8c8c8c;
+  font-weight: 400;
+  transition: all 0.2s;
 }
-
 .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form {
-    align-items: center;
-    display: inline-flex;
-    flex-direction: row;
-    width: auto;
-    min-width: 74px;
-    position: relative;
-    background-color: #dd0611;
-    color: #fff;
-    box-shadow: 0 1px 0 rgb(0, 0, 0);
-    border-radius: 2px;
-    box-sizing: border-box;
-    cursor: pointer;
-    font-weight: 400;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    border: none;
+  align-items: center;
+  display: inline-flex;
+  flex-direction: row;
+  width: auto;
+  min-width: 74px;
+  position: relative;
+  background-color: #dd0611;
+  color: #fff;
+  box-shadow: 0 1px 0 rgb(0, 0, 0);
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  border: none;
 }
-
 .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form:hover {
-    background-color: #f40612;
+  background-color: #f40612;
 }
-
-.faq-section .faq-text .email-form .email-form-lockup .button-container .button-form:after {
-    content: "";
-    display: inline-block;
-    flex: 0 0 auto;
-    width: 1px;
-    min-height: 40px;
+.faq-section .faq-text .email-form .email-form-lockup .button-container .button-form::after {
+  content: "";
+  display: inline-block;
+  flex: 0 0 auto;
+  width: 1px;
+  min-height: 40px;
 }
-
 .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form .text-span {
-    flex: 1 1 auto;
-    text-align: center;
+  flex: 1 1 auto;
+  text-align: center;
 }
-
 .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form .chevron-right-arrow {
-    flex: 0 1 auto;
-    height: .75em;
-    width: .35em;
-    margin: 0 0 0 0.5em;
-    position: relative;
+  flex: 0 1 auto;
+  height: 0.75em;
+  width: 0.35em;
+  margin: 0 0 0 0.5em;
+  position: relative;
 }
-
 .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form .chevron-right-arrow svg {
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    margin: 1px 0;
-    transform: scaleX(1);
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  margin: 1px 0;
+  transform: scaleX(1);
+}
+.faq-section .faq-text .email-form .email-form-lockup .button-container .button-form .chevron-right-arrow svg path {
+  fill: #fff;
 }
 
-.faq-section .faq-text .email-form .email-form-lockup .button-container .button-form .chevron-right-arrow svg path {
-    fill: #fff;
-}
+/*# sourceMappingURL=faq.css.map */

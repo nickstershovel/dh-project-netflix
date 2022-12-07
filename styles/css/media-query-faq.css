@@ -1,219 +1,160 @@
-@media only screen and (min-width: 1450px) 
-{
-    .div-input-responsive .div-input-place .input-label .input-field {
-        border-bottom-right-radius: 0;
-        border-top-right-radius: 0;
-        height: 70px !important;
-        min-width: 500px;
-    }
-
-    .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form {
-        font-size: 1.875rem;
-        min-height: 70px;
-    }
-
-    .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form:after {
-        min-height: 70px;
-    }
+@media only screen and (min-width: 1450px) {
+  .div-input-responsive .div-input-place .input-label .input-field {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    height: 70px !important;
+    min-width: 500px;
+  }
+  .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form {
+    font-size: 1.875rem;
+    min-height: 70px;
+  }
+  .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form::after {
+    min-height: 70px;
+  }
+}
+@media only screen and (min-width: 1450px), only screen and (min-width: 950px) and (max-width: 1449px) {
+  .faq-section {
+    padding: 70px 45px;
+  }
+  .faq-section .faq-text .faq-list {
+    width: 75%;
+    margin: 2em auto;
+  }
+  .faq-section .faq-text .email-form {
+    max-width: 950px;
+    padding-top: 0.85rem;
+  }
+  .faq-section .faq-text .email-form .email-form-title {
+    font-size: 1.2rem;
+    max-width: none;
+    padding-bottom: 20px;
+  }
+  .faq-section .faq-text .email-form .email-form-lockup {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .faq-section .faq-text .email-form .email-form-lockup .ul-form {
+    flex: 1 0 auto;
+    text-align: right;
+    vertical-align: top;
+  }
+  .faq-section .faq-text .email-form .email-form-lockup .ul-form .list-form .div-input-responsive {
+    margin: 0;
+  }
+  .faq-section .faq-text .email-form .email-form-lockup .button-container {
+    display: inline-block;
+    flex: 1 0 auto;
+    text-align: left;
+    vertical-align: top;
+  }
+  .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form {
+    border-bottom-left-radius: 0;
+    border: 0;
+    border-left: 1px solid #333;
+    border-top-left-radius: 0;
+    margin: 0 !important;
+    padding: 0 1em;
+  }
+  .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form .text-span {
+    padding: 0.5rem 0;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1449px) {
+  .div-input-responsive .div-input-place .input-label .input-field {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    height: 60px !important;
+    min-width: 450px;
+  }
+  .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form {
+    font-size: 1.625rem;
+    min-height: 60px;
+  }
+  .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form::after {
+    min-height: 60px;
+  }
+}
+@media only screen and (min-width: 1450px), only screen and (min-width: 550px) and (max-width: 949px), only screen and (min-width: 950px) and (max-width: 1449px) {
+  .faq-section {
+    padding: 70px 45px;
+  }
+}
+@media only screen and (min-width: 740px) {
+  .div-input-responsive .div-input-place .input-label .input-field {
+    height: 60px;
+  }
+  .div-input-responsive .div-input-place .input-label .input-field .placeLabel {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .faq-section .faq-text {
+    font-size: 1.25rem !important;
+  }
+  .faq-section .faq-text .faq-title {
+    font-size: 2.5rem;
+  }
+  .faq-section .faq-text .faq-list {
+    margin: 1.5em auto;
+    width: 90%;
+  }
+  .faq-section .faq-text .faq-list .faq-list-item .faq-answer,
+  .faq-section .faq-text .faq-list .faq-question {
+    font-size: 1.25rem !important;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+  .faq-section .faq-text .email-form .email-form-title {
+    padding: 0 10%;
+  }
+}
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px), only screen and (min-width: 550px) and (max-width: 949px) {
+  .faq-section .faq-text .email-form .email-form-title {
+    padding: 0 10%;
+  }
+  .faq-section .faq-text .email-form .email-form-title + .email-form-lockup .ul-form .list-form {
+    margin-bottom: 0;
+  }
+  .faq-section .faq-text .email-form .email-form-title + .email-form-lockup .ul-form .list-form .div-input-responsive {
+    margin: 10px auto;
+  }
+  .faq-section .faq-text .email-form .email-form-title + .email-form-lockup .ul-form .list-form .div-input-responsive .div-input-place .input-label .input-field {
+    height: 48px;
+  }
+  .faq-section .faq-text .email-form .email-form-title + .email-form-lockup .button-container {
+    margin-top: 0;
+    padding: 0;
+  }
+  .faq-section .faq-text .email-form .email-form-title + .email-form-lockup .button-container .button-form {
+    margin: 0.25em auto;
+    padding: 0 1em;
+    min-height: 40px;
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 349px), only screen and (min-width: 350px) and (max-width: 399px), only screen and (min-width: 400px) and (max-width: 549px) {
+  .faq-section {
+    padding: 50px 0;
+  }
+  .faq-section .faq-text {
+    font-size: 1.125rem !important;
+  }
+  .faq-section .faq-text .faq-title {
+    font-size: 1.625rem !important;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .faq-section .faq-text .faq-list .faq-list-item .faq-answer, .faq-question {
+    font-size: 1.125rem !important;
+  }
+  .faq-section .faq-text .email-form {
+    padding: 0 5%;
+  }
+  .faq-section .faq-text .email-form .email-form-lockup .button-container {
+    padding: 0;
+  }
 }
 
-@media only screen and (min-width: 1450px),
-    only screen and (min-width: 950px)
-    and (max-width: 1449px)
-    {
-        .faq-section {
-            padding: 70px 45px;
-        }
-
-        .faq-section .faq-text .faq-list {
-            width: 75%;
-            margin: 2em auto;
-        }
-
-        .faq-section .faq-text .email-form {
-            max-width: 950px;
-            padding-top: .85rem;
-        }
-
-        .faq-section .faq-text .email-form .email-form-title {
-            font-size: 1.2rem;
-            max-width: none;
-            padding-bottom: 20px;
-        }
-
-        .faq-section .faq-text .email-form .email-form-lockup {
-            display: flex;
-            flex-direction: row;
-            margin: 0 auto;
-        }
-
-        .faq-section .faq-text .email-form .email-form-lockup .ul-form {
-            flex: 1 0 auto;
-            text-align: right;
-            vertical-align: top;
-        }
-
-        .faq-section .faq-text .email-form .email-form-lockup .ul-form .list-form .div-input-responsive {
-            margin: 0;
-        }
-
-        .faq-section .faq-text .email-form .email-form-lockup .button-container {
-            display: inline-block;
-            flex: 1 0 auto;
-            text-align: left;
-            vertical-align: top;
-        }
-
-        .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form {
-            border-bottom-left-radius: 0;
-            border: 0;
-            border-left: 1px solid #333;
-            border-top-left-radius: 0;
-            margin: 0 !important;
-            padding: 0 1em;
-        }
-
-        .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form .text-span {
-            padding: .5rem 0;
-        }
-        
-    }
-
-@media only screen and (min-width: 950px) and (max-width: 1449px) 
-{
-    .div-input-responsive .div-input-place .input-label .input-field {
-        border-bottom-right-radius: 0;
-        border-top-right-radius: 0;
-        height: 60px !important;
-        min-width: 450px;
-    }
-
-    .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form {
-        font-size: 1.625rem;
-        min-height: 60px;
-    }
-
-    .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form:after {
-        min-height: 60px;
-    }
-}
-
-@media only screen and (min-width: 1450px),
-    only screen and (min-width: 550px) and (max-width: 949px),
-    only screen and (min-width: 950px) and (max-width: 1449px)
-{
-    .faq-section {
-        padding: 70px 45px;
-    }
-}
-
-
-
-@media only screen and (min-width: 740px) 
-{
-    .div-input-responsive .div-input-place .input-label .input-field {
-        height: 60px;
-    }
-
-    .div-input-responsive .div-input-place .input-label .placeLabel {
-        font-size: 16px;
-    }
-}
-
-@media only screen and (min-width: 550px) and (max-width: 949px) 
-{
-    .faq-section .faq-text {
-        font-size: 1.25rem !important;
-    }
-
-    .faq-section .faq-text .faq-title {
-        font-size: 2.5rem;
-    }
-
-    .faq-section .faq-text .faq-list .faq-list-item .faq-answer, .faq-question {
-        font-size: 1.25rem !important;
-    }
-
-    .faq-section .faq-text .faq-list {
-        margin: 1.5em auto;
-        width: 90%;
-    }
-}
-
-@media only screen and (min-width: 400px) and (max-width: 549px),
-    only screen and (min-width: 550px) and (max-width: 949px) 
-    {
-        .faq-section .faq-text .email-form .email-form-title {
-            padding: 0 10%;
-        }
-    }
-
-
-@media only screen and (max-width: 349px),
-    only screen and (min-width: 350px) and (max-width: 399px),
-    only screen and (min-width: 400px) and (max-width: 549px),
-    only screen and (min-width: 550px) and (max-width: 949px) 
-    {
-        .faq-section .faq-text .email-form .email-form-title {
-            padding: 0 10%;
-        }
-
-        .faq-section .faq-text .email-form .email-form-lockup .button-container {
-            margin-top: 0;
-            padding: 0;
-        }
-
-        .faq-section .faq-text .email-form .email-form-lockup .ul-form .list-form {
-            margin-bottom: 0;
-        }
-
-        .faq-section .faq-text .email-form .email-form-lockup .ul-form .list-form .div-input-responsive {
-            margin: 10px auto;
-        }
-
-        .div-input-responsive .div-input-place .input-label .input-field {
-            height: 48px;
-        }
-
-        .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form {
-            margin: 0.25em auto;
-            padding: 0 1em;
-            min-height: 40px;
-            font-size: 1rem;
-        }
-    
-
-    }
-
-
-
-@media only screen and (max-width: 349px),
-    only screen and (min-width: 350px) and (max-width: 399px),
-    only screen and (min-width: 400px) and (max-width: 549px) {
-        
-        .faq-section {
-            padding: 50px 0;
-        }
-
-        .faq-section .faq-text {
-            font-size: 1.125rem !important;
-        }
-
-        .faq-section .faq-text .faq-title {
-            font-size: 1.625rem;
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-
-        .faq-section .faq-text .faq-list .faq-list-item .faq-answer, .faq-question {
-            font-size: 1.125rem !important;
-        }
-
-        .faq-section .faq-text .email-form {
-            padding: 0 5%;
-        }
-
-        .faq-section .faq-text .email-form .email-form-lockup .button-container {
-            padding: 0;
-        }
-    }
+/*# sourceMappingURL=media-query-faq.css.map */
