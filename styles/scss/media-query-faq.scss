@@ -168,27 +168,22 @@ $resp-width: (
         
         .faq-section {
             padding: 50px 0;
-        }
-
-        .faq-section .faq-text {
-            font-size: 1.125rem !important;
-        }
-
-        .faq-section .faq-text .faq-title {
-            font-size: 1.625rem !important;
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-
-        .faq-section .faq-text .faq-list .faq-list-item .faq-answer, .faq-question {
-            font-size: 1.125rem !important;
-        }
-
-        .faq-section .faq-text .email-form {
-            padding: 0 5%;
-        }
-
-        .faq-section .faq-text .email-form .email-form-lockup .button-container {
-            padding: 0;
+            & .faq-text {
+                font-size: 1.125rem !important;
+                & .faq-title {
+                    font-size: 1.625rem !important;
+                    padding-left: 5%;
+                    padding-right: 5%;
+                }
+                & .faq-list .faq-list-item .faq-answer, .faq-question {
+                    font-size: 1.125rem !important;
+                }
+                & .email-form {
+                    padding: 0 5%;
+                    & .email-form-lockup .button-container {
+                        padding: 0;
+                    }
+                }
+            }
         }
     }
