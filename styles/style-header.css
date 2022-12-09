@@ -64,7 +64,8 @@ a {
 /*SHOWCASE CSS*/ /*SHOWCASE CSS*/ /*SHOWCASE CSS*/
 .showcase-logo {
   fill: var(--primary-color);
-  margin-right: 70vmax;
+  margin-left: 1.5rem;
+  padding-top: 10px;
 }
 
 .showcase-container {
@@ -83,6 +84,7 @@ img {
   margin: 0 auto;
   max-width: 1920px;
   padding-top: 40px;
+  padding-right: 40px;
   padding-left: 40px;
   width: 100%;
 }
@@ -106,7 +108,15 @@ header div.select svg {
   margin-top: 10px;
 }
 
-.languageselector-btn { /*DA SISTEMARE*/
+.language-login-wrapper {
+  display: flex;
+  width: 200px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: 2.5rem;
+}
+
+.languageselector-btn {
   line-height: 1.3em;
   padding-left: 1.3rem;
   padding-right: 0.1rem;
@@ -192,6 +202,10 @@ header div.select svg {
   font-size: 16px;
   padding: 10px 11px;
   outline: none;
+}
+.email-form-container .email-input:focus {
+  border: 1px solid blue;
+  transition-duration: 10;
 }
 .email-form-container .email-send {
   background: var(--primary-color);
