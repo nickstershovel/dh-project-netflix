@@ -16,10 +16,12 @@ footer .phone:hover {
   text-decoration: underline;
 }
 footer .links .listelement {
-  text-decoration: none;
   box-sizing: border-box;
   display: inline-block;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
+  min-width: 100px;
+  padding: 0 12px 0 0;
+  vertical-align: top;
   width: 20%;
 }
 footer .links .listelement .list {
@@ -55,6 +57,16 @@ footer .langselect #language {
 footer .langselect #language #globe {
   padding-right: 7%;
   margin-top: 12%;
+}
+@media only screen and (max-width: 740px) {
+  footer .langselect .listelement {
+    width: 33%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  footer .langselect .listelement {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=footer.css.map */
