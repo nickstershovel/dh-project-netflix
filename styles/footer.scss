@@ -59,15 +59,16 @@ footer {
         margin-top: 12%;
       }
     }
-    @media only screen and (max-width: 740px) {
-      .listelement {
-        width: 33%;
-      }
-    }
-    @media only screen and (max-width: 500px) {
-      .listelement {
-        width: 50%;
-      }
-    }
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .listelement {
+    width: 33%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .listelement {
+    width: 50%;
   }
 }

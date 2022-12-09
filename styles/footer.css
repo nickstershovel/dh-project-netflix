@@ -58,13 +58,14 @@ footer .langselect #language #globe {
   padding-right: 7%;
   margin-top: 12%;
 }
+
 @media only screen and (max-width: 740px) {
-  footer .langselect .listelement {
+  .listelement {
     width: 33%;
   }
 }
 @media only screen and (max-width: 500px) {
-  footer .langselect .listelement {
+  .listelement {
     width: 50%;
   }
 }
