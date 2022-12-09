@@ -82,6 +82,7 @@ img {
 .showcase-top-container {
   display: flex;
   margin: 0 auto;
+  align-items: center;
   max-width: 1920px;
   padding-top: 40px;
   padding-right: 40px;
@@ -114,29 +115,26 @@ header div.select svg {
   height: 40px;
   margin-left: auto;
   margin-right: 2.5rem;
+  align-items: center;
 }
-
-.languageselector-btn {
+.language-login-wrapper .languageselector-btn {
   line-height: 1.3em;
   padding-left: 1.3rem;
   padding-right: 0.1rem;
   padding-top: 8px;
   padding-bottom: 8px;
-  display: inline-block;
   border: 1px solid #aaa;
   background: rgba(0, 0, 0, 0.4);
   color: #fff;
-  margin-right: 40px;
+  margin-right: 35px;
   border-radius: 3px;
   font-size: 0.875rem;
 }
-.languageselector-btn .language {
+.language-login-wrapper .languageselector-btn .language {
   background-color: lightgrey;
   color: grey;
 }
-
-.loginbutton {
-  display: inline-block;
+.language-login-wrapper .loginbutton {
   background: var(--primary-color);
   color: #fff;
   padding: 0.4rem 1.3rem;

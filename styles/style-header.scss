@@ -69,9 +69,10 @@ a{
     img{ 
         width: 100%;
     }
-    .showcase-top-container{ //FARE 2 DIV, UNO CHE CONTIENE IL LOGO, L'ALTRO CONTIENE I DUE PULSANTI
+    .showcase-top-container{ 
         display:flex;
         margin: 0 auto;
+        align-items: center;
         max-width: 1920px;
         padding-top: 40px;
         padding-right: 40px;
@@ -101,39 +102,38 @@ a{
         height: 40px;
         margin-left: auto;
         margin-right: 2.5rem;
-    }
-    .languageselector-btn{
-        line-height: 1.3em;
-        padding-left: 1.3rem;
-        padding-right: 0.1rem;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        display: inline-block;
-        border: 1px solid #aaa;
-        background: rgba(0,0,0,.4);
-        color: #fff;
-        margin-right: 40px;
-        border-radius: 3px;
-        font-size: .875rem;
-        .language{
-            background-color: lightgrey;
-            color: grey;
-    }
-}
-    .loginbutton{
-        display: inline-block;
-        background: var(--primary-color);
-        color: #fff;
-        padding: 0.4rem 1.3rem;
-        font-size: 1rem;
-        font-weight: 400;
-        text-align: center;
-        border: none;
-        cursor: pointer;
-        outline: none;
-        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
-        border-radius: 3px;
+        align-items: center;
+        .languageselector-btn{
+            line-height: 1.3em;
+            padding-left: 1.3rem;
+            padding-right: 0.1rem;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border: 1px solid #aaa;
+            background: rgba(0,0,0,.4);
+            color: #fff;
+            margin-right: 35px;
+            border-radius: 3px;
+            font-size: .875rem;
+            .language{
+                background-color: lightgrey;
+                color: grey;
         }
+    }
+        .loginbutton{
+            background: var(--primary-color);
+            color: #fff;
+            padding: 0.4rem 1.3rem;
+            font-size: 1rem;
+            font-weight: 400;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+            border-radius: 3px;
+            }
+    }
 
     .showcase-content-container{
         color:white;
