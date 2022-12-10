@@ -19,20 +19,6 @@ a {
 }
 
 /*FINE REGOLE GENERALI*/ /*FINE REGOLE GENERALI*/ /*FINE REGOLE GENERALI*/
-/*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/
-@media (max-width: 575px) {
-  .showcase-netflix-logo {
-    width: 88.8px;
-    height: 24px;
-  }
-  .email-send {
-    margin-top: 20px;
-  }
-  .email-input {
-    width: 100px;
-  }
-}
-/*FINE MEDIA QUERY*/ /*FINE MEDIA QUERY*/ /*FINE MEDIA QUERY*/
 /*BANNER CSS*/ /*BANNER CSS*/ /*BANNER CSS*/
 .banner-container-fluid {
   align-items: center;
@@ -179,15 +165,25 @@ body div.select svg {
   position: relative;
 }
 .showcase-content-container-fluid h1 {
-  font-size: 4rem;
+  font-size: 3.125rem;
   font-weight: bold;
   line-height: 1.1;
   margin-bottom: 0.5rem;
+}
+@media screen and (max-width: 576px) {
+  .showcase-content-container-fluid h1 {
+    font-size: 2rem;
+  }
 }
 .showcase-content-container-fluid h2 {
   font-size: 1.625rem;
   font-weight: 400;
   margin-top: 10px;
+}
+@media screen and (max-width: 576px) {
+  .showcase-content-container-fluid h2 {
+    font-size: 1.5rem;
+  }
 }
 .showcase-content-container-fluid h3 {
   font-size: 1.2rem;
@@ -196,6 +192,11 @@ body div.select svg {
   margin-top: 30px;
   padding: 0 5%;
   margin-bottom: 10px;
+}
+@media screen and (max-width: 576px) {
+  .showcase-content-container-fluid h3 {
+    font-size: 1.2rem;
+  }
 }
 
 .email-form-container-fluid { /*DA SISTEMARE*/
@@ -207,7 +208,6 @@ body div.select svg {
 }
 .email-form-container-fluid .email-input {
   height: 70px;
-  width: 500px;
   border: 1px solid #8c8c8c;
   border-radius: 2px;
   color: #000;
@@ -237,5 +237,24 @@ body div.select svg {
 }
 
 /*FINE SHOWCASE CSS*/ /*FINE SHOWCASE CSS*/ /* FINE SHOWCASE CSS*/
+/*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/
+@media (max-width: 575.98px) {
+  .showcase-netflix-logo {
+    width: 88.8px;
+    height: 24px;
+  }
+  .email-send {
+    margin-top: 20px;
+  }
+  .email-input {
+    width: 400px;
+  }
+}
+@media (min-width: 576px) {
+  .email-input {
+    width: 500px;
+  }
+}
+/*FINE MEDIA QUERY*/ /*FINE MEDIA QUERY*/ /*FINE MEDIA QUERY*/
 
 /*# sourceMappingURL=style-header.css.map */
