@@ -10,14 +10,29 @@
 a{
     text-decoration: none;
 }
-.container, header{
+.container, body{
     font-family: Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 /*FINE REGOLE GENERALI*//*FINE REGOLE GENERALI*//*FINE REGOLE GENERALI*/
 
+/*MEDIA QUERY*//*MEDIA QUERY*//*MEDIA QUERY*/
+@media (max-width: 575px){
+    .showcase-netflix-logo{
+        width: 88.8px;
+        height: 24px;
+    }
+    .email-send{
+        margin-top: 20px;
+    }
+    .email-input{
+        width: 100px;
+    }
+}
+/*FINE MEDIA QUERY*//*FINE MEDIA QUERY*//*FINE MEDIA QUERY*/
+
 /*BANNER CSS*//*BANNER CSS*//*BANNER CSS*/
-.banner-container{
+.banner-container-fluid{
     align-items: center;
     background-color: #fff;
     display: flex;
@@ -60,7 +75,7 @@ a{
     margin-left: 1.5rem;
     padding-top: 10px;
 }
-.showcase-container{
+.showcase-container-fluid{
     width: 100%;
     height: 100%;   
     position: relative;
@@ -69,7 +84,7 @@ a{
     img{ 
         width: 100%;
     }
-    .showcase-top-container{ 
+    .showcase-top-container-fluid{ 
         display:flex;
         margin: 0 auto;
         align-items: center;
@@ -79,7 +94,7 @@ a{
         padding-left: 40px;
         width: 100%;
     }
-    .showcase-container::after {
+    .showcase-container-fluid::after {
         content: '';
         position: absolute;
         top: 0;
@@ -90,7 +105,7 @@ a{
         background: rgba(0, 0, 0, 0.5);
         box-shadow: inset 10px 10px 250px #000000, inset -10px -10px 250px #000000;
     }
-    header div.select svg{
+    body div.select svg{
         height: 16px;
         position: absolute;
         margin-left: 6px;
@@ -135,7 +150,7 @@ a{
             }
     }
 
-    .showcase-content-container{
+    .showcase-content-container-fluid{
         color:white;
         display:flex;
         flex-direction:column;
@@ -170,7 +185,7 @@ a{
             margin-bottom: 10px;
         }
     }
-    .email-form-container{ /*DA SISTEMARE*/
+    .email-form-container-fluid{ /*DA SISTEMARE*/
         padding-top: 1rem;
         display:flex;
         flex-wrap:wrap;

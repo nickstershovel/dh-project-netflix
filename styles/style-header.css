@@ -13,14 +13,28 @@ a {
   text-decoration: none;
 }
 
-.container, header {
+.container, body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 /*FINE REGOLE GENERALI*/ /*FINE REGOLE GENERALI*/ /*FINE REGOLE GENERALI*/
+/*MEDIA QUERY*/ /*MEDIA QUERY*/ /*MEDIA QUERY*/
+@media (max-width: 575px) {
+  .showcase-netflix-logo {
+    width: 88.8px;
+    height: 24px;
+  }
+  .email-send {
+    margin-top: 20px;
+  }
+  .email-input {
+    width: 100px;
+  }
+}
+/*FINE MEDIA QUERY*/ /*FINE MEDIA QUERY*/ /*FINE MEDIA QUERY*/
 /*BANNER CSS*/ /*BANNER CSS*/ /*BANNER CSS*/
-.banner-container {
+.banner-container-fluid {
   align-items: center;
   background-color: #fff;
   display: flex;
@@ -68,7 +82,7 @@ a {
   padding-top: 10px;
 }
 
-.showcase-container {
+.showcase-container-fluid {
   width: 100%;
   height: 100%;
   position: relative;
@@ -79,7 +93,7 @@ img {
   width: 100%;
 }
 
-.showcase-top-container {
+.showcase-top-container-fluid {
   display: flex;
   margin: 0 auto;
   align-items: center;
@@ -90,7 +104,7 @@ img {
   width: 100%;
 }
 
-.showcase-container::after {
+.showcase-container-fluid::after {
   content: "";
   position: absolute;
   top: 0;
@@ -102,7 +116,7 @@ img {
   box-shadow: inset 10px 10px 250px #000000, inset -10px -10px 250px #000000;
 }
 
-header div.select svg {
+body div.select svg {
   height: 16px;
   position: absolute;
   margin-left: 6px;
@@ -148,7 +162,7 @@ header div.select svg {
   border-radius: 3px;
 }
 
-.showcase-content-container {
+.showcase-content-container-fluid {
   color: white;
   display: flex;
   flex-direction: column;
@@ -164,18 +178,18 @@ header div.select svg {
   padding-bottom: 13rem;
   position: relative;
 }
-.showcase-content-container h1 {
+.showcase-content-container-fluid h1 {
   font-size: 4rem;
   font-weight: bold;
   line-height: 1.1;
   margin-bottom: 0.5rem;
 }
-.showcase-content-container h2 {
+.showcase-content-container-fluid h2 {
   font-size: 1.625rem;
   font-weight: 400;
   margin-top: 10px;
 }
-.showcase-content-container h3 {
+.showcase-content-container-fluid h3 {
   font-size: 1.2rem;
   padding-bottom: 40px;
   font-weight: 400;
@@ -184,14 +198,14 @@ header div.select svg {
   margin-bottom: 10px;
 }
 
-.email-form-container { /*DA SISTEMARE*/
+.email-form-container-fluid { /*DA SISTEMARE*/
   padding-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.email-form-container .email-input {
+.email-form-container-fluid .email-input {
   height: 70px;
   width: 500px;
   border: 1px solid #8c8c8c;
@@ -201,11 +215,11 @@ header div.select svg {
   padding: 10px 11px;
   outline: none;
 }
-.email-form-container .email-input:focus {
+.email-form-container-fluid .email-input:focus {
   border: 1px solid blue;
   transition-duration: 10;
 }
-.email-form-container .email-send {
+.email-form-container-fluid .email-send {
   background: var(--primary-color);
   color: #fff;
   height: 70px;
