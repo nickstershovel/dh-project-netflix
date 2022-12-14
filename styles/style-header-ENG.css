@@ -196,8 +196,9 @@ body div.select svg {
 .language-login-wrapper .loginbutton {
   background: var(--primary-color);
   color: #fff;
-  padding: 0.4rem 1.3rem;
-  font-size: 1.1rem;
+  white-space: nowrap;
+  padding: 0.4rem 1.5rem;
+  font-size: 1rem;
   font-weight: 400;
   text-align: center;
   border: none;
@@ -296,7 +297,7 @@ body div.select svg {
   padding: 1rem 2rem;
   padding-right: 1.5rem;
   padding-left: 1.8rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 2rem;
   text-align: center;
   border: none;
@@ -349,4 +350,4 @@ body div.select svg {
 }
 /*FINE MEDIA QUERY*/ /*FINE MEDIA QUERY*/ /*FINE MEDIA QUERY*/
 
-/*# sourceMappingURL=style-header.css.map */
+/*# sourceMappingURL=style-header-ENG.css.map */
