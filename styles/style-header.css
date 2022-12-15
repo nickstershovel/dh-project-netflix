@@ -196,6 +196,7 @@ body div.select svg {
 .language-login-wrapper .loginbutton {
   background: var(--primary-color);
   color: #fff;
+  white-space: nowrap;
   padding: 0.4rem 1.3rem;
   font-size: 1.1rem;
   font-weight: 400;
@@ -269,6 +270,17 @@ body div.select svg {
   }
 }
 
+input[type=email]:focus::placeholder {
+  font-size: 13px;
+  transform: translateY(-100%);
+  transition-duration: 0.1s;
+}
+
+input[type=email]:not(:focus)::placeholder {
+  font-size: 16px;
+  transition-duration: 0.1s;
+}
+
 .email-form-container {
   padding-top: 1rem;
   display: flex;
@@ -287,9 +299,9 @@ body div.select svg {
 }
 .email-form-container .email-input:focus {
   border: 1px solid blue;
-  transition-duration: 10;
 }
-.email-form-container .email-send {
+
+.email-send {
   background: var(--primary-color);
   color: #fff;
   height: 70px;
