@@ -101,7 +101,7 @@ a {
 .showcase-container {
   width: 100%;
   position: relative;
-  background: rgba(0, 0, 0, 0.6) url("../resources/netflixbackground.jpg") no-repeat center/cover;
+  background: rgba(0, 0, 0, 0.6) url("../../resources/netflixbackground.jpg") no-repeat center/cover;
 }
 
 img {
