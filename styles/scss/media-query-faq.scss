@@ -1,0 +1,189 @@
+@use "sass:map";
+
+$resp-width: (
+    "xl": 1450px,
+    "l": 950px,
+    "m": 740px,
+    "ms": 550px,
+    "s": 400px,
+    "xs": 350px,
+);
+
+@media only screen and (min-width: map.get($resp-width,"xl")) {
+    .div-input-responsive .div-input-place .input-label .input-field {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        height: 70px !important;
+        min-width: 500px;
+    }
+
+    .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form {
+        font-size: 1.875rem;
+        min-height: 70px;
+        &::after {
+            min-height: 70px;
+        }
+    }
+}
+
+@media only screen and (min-width: map.get($resp-width,"xl")),
+    only screen and (min-width: map.get($resp-width,"l")) and (max-width: calc(map.get($resp-width,"xl") - 1px)) {
+    .faq-section {
+        padding: 70px 45px;
+        & .faq-text .faq-list {
+            width: 75%;
+            margin: 2em auto;
+        }
+        & .faq-text .email-form {
+            max-width: 950px;
+            padding-top: 0.85rem;
+            & .email-form-title {
+                font-size: 1.2rem;
+                max-width: none;
+                padding-bottom: 20px;
+            }
+            & .email-form-lockup {
+                display: flex;
+                flex-direction: row;
+                margin: 0 auto;
+                & .ul-form {
+                    flex: 1 0 auto;
+                    text-align: right;
+                    vertical-align: top;
+                    & .list-form .div-input-responsive {
+                        margin: 0;
+                    }
+                }
+                & .button-container {
+                    display: inline-block;
+                    flex: 1 0 auto;
+                    text-align: left;
+                    vertical-align: top;
+                    & .button-form {
+                        border-bottom-left-radius: 0;
+                        border: 0;
+                        border-left: 1px solid #333;
+                        border-top-left-radius: 0;
+                        margin: 0 !important;
+                        padding: 0 1em;
+                        & .text-span {
+                            padding: 0.5rem 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: map.get($resp-width,"l")) and (max-width: calc(map.get($resp-width,"xl") - 1px)) {
+    .div-input-responsive .div-input-place .input-label .input-field {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        height: 60px !important;
+        min-width: 450px;
+    }
+
+    .faq-section .faq-text .email-form .email-form-lockup .button-container .button-form {
+        font-size: 1.625rem;
+        min-height: 60px;
+        &::after {
+            min-height: 60px;
+        }
+    }
+}
+
+@media only screen and (min-width: map.get($resp-width,"xl")),
+    only screen and (min-width: map.get($resp-width,"ms")) and (max-width: calc(map.get($resp-width,"l") - 1px)),
+    only screen and (min-width: map.get($resp-width,"l")) and (max-width: calc(map.get($resp-width,"xl") - 1px)) {
+    .faq-section {
+        padding: 70px 45px;
+    }
+}
+
+@media only screen and (min-width: map.get($resp-width,"m")) {
+    .div-input-responsive .div-input-place .input-label .input-field {
+        height: 60px;
+        & .placeLabel {
+            font-size: 16px;
+        }
+    }
+}
+
+@media only screen and (min-width: map.get($resp-width,"ms")) and (max-width: calc(map.get($resp-width,"l") - 1px)) {
+    .faq-section .faq-text {
+        font-size: 1.25rem !important;
+        & .faq-title {
+            font-size: 2.5rem;
+        }
+        & .faq-list {
+            margin: 1.5em auto;
+            width: 90%;
+            & .faq-list-item .faq-answer,
+            .faq-question {
+                font-size: 1.25rem !important;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: map.get($resp-width,"s")) and (max-width: calc(map.get($resp-width,"ms") - 1px)),
+    only screen and (min-width: map.get($resp-width,"ms")) and (max-width: calc(map.get($resp-width,"l") - 1px)) {
+    .faq-section .faq-text .email-form .email-form-title {
+        padding: 0 10%;
+    }
+}
+
+@media only screen and (max-width: calc(map.get($resp-width,"xs") - 1px)),
+    only screen and (min-width: map.get($resp-width,"xs")) and (max-width: calc(map.get($resp-width,"s") - 1px)),
+    only screen and (min-width: map.get($resp-width,"s")) and (max-width: calc(map.get($resp-width,"ms") - 1px)),
+    only screen and (min-width: map.get($resp-width,"ms")) and (max-width: calc(map.get($resp-width,"l") - 1px)) {
+    .faq-section .faq-text .email-form .email-form-title {
+        padding: 0 10%;
+        & + .email-form-lockup .ul-form .list-form {
+            margin-bottom: 0;
+            & .div-input-responsive {
+                margin: 10px auto;
+                & .div-input-place .input-label .input-field {
+                    height: 48px;
+                }
+            }
+        }
+        & + .email-form-lockup .button-container {
+            margin-top: 0;
+            padding: 0;
+            & .button-form {
+                margin: 0.25em auto;
+                padding: 0 1em;
+                min-height: 40px;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: calc(map.get($resp-width,"xs") - 1px)),
+    only screen and (min-width: map.get($resp-width,"xs")) and (max-width: calc(map.get($resp-width,"s") - 1px)),
+    only screen and (min-width: map.get($resp-width,"s")) and (max-width: calc(map.get($resp-width,"ms") - 1px)) {
+        
+        .faq-section {
+            padding: 50px 0;
+            & .faq-text {
+                font-size: 1.125rem !important;
+                & .faq-title {
+                    font-size: 1.625rem !important;
+                    padding-left: 5%;
+                    padding-right: 5%;
+                }
+                & .faq-list .faq-list-item .faq-answer, .faq-question {
+                    font-size: 1.125rem !important;
+                }
+                & .email-form {
+                    padding: 0 5%;
+                    & .email-form-lockup .button-container {
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }

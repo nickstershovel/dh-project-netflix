@@ -1,0 +1,532 @@
+/*GENERALI*/
+html{
+    background-color: rgb(0,0,0);
+}
+
+.section{
+    border-bottom: 8px solid rgb(34,34,34);
+}
+.contenitore{
+    color: white;
+    height: 350px;
+    display: flex;
+    padding: 70px 45px 130px 45px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.title{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.subtitle{
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.info{
+    color: white;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*--------------------------*/
+
+/*PRIMO CONTAINER*/
+.first-text{
+    margin: 0;
+    height: 300px;
+    width: 536px;
+}
+.contenitore-tv{
+    margin: 0;
+    height: 400px;
+    width: 550px;
+}
+.tv{
+    margin: 0;
+    height: 400px;
+    width: 550px;
+    position: absolute;
+}
+.tv-img{
+    width: 550px;
+    height: 400px;
+}
+
+.video-tv{
+    position:static;
+    height: 300px;
+    width: 400px;
+    margin: 0;
+}
+.video-tv-mp4{
+    width: 400px;
+    height: 300px;
+    padding-top: 40px;
+    padding-left: 70px;
+}
+
+/*SECONDO CONTAINER*/
+.desktop-video{
+    margin-top: -50px;
+}
+.desktop{
+    height: 400px;
+    width: auto;
+    padding-left: 60px;
+    position: absolute;
+}
+
+.second-text{
+    width: 510px;
+    height: 200px;
+    padding-left: 60px;
+    margin: 0;
+}
+.video-desktop{
+    position:static;
+    height: 240px;
+    width: 320px;
+    margin: 0;
+    padding-left: 170px;
+}
+/*TERZO CONTAINER*/
+.third-text{
+    width: 520px;
+    height: 200px;
+    padding-left: 150px;
+    margin-bottom: 50px;
+}
+.img-bambini{
+    width: 480px;
+    height: 360px;
+}
+/*--------------------------*/
+
+/*QUARTO CONTAINER*/
+.phone{
+    width: 480px;
+    height: 360px;
+    position: relative;
+    margin-left: 90px;
+}
+.fourth-text{
+    width: 520px;
+    height: 200px;
+    padding: 0;
+    margin-bottom: 50px;
+}
+.phone-small-box{
+    display: flex;
+}
+.small-box{
+    background-color: black;
+    display: flex;
+    border: 2px solid rgb(64,64,64);
+    border-radius: 15px;
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 180px;
+}
+.image-phone{
+    padding: 10px;
+}
+.small-box-text{
+    color: rgb(84, 84, 228);
+    margin: 0;
+}
+.small-box-title{
+    margin-bottom: 0px;
+}
+.download-icon{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+/*--------------------------*/
+/*max 1536px*/
+@media screen and (max-width: 1200px) {
+    .section{
+        border-bottom: 8px solid rgb(34,34,34);
+    }
+    .contenitore{
+        color: white;
+        height: 200px;
+        display: flex;
+        padding-top: 70px;
+        padding-left: 45px;
+        padding-bottom: 180px;
+        padding-right: 45px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /*PRIMO CONTAINER*/
+    .first-text{
+        margin: 0;
+    }
+    .title{
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+    .subtitle{
+        font-size: 25px;
+    }
+    .contenitore-tv{
+        height: 400px;
+        width: 500px;
+    }
+    .tv{
+        height:350px;
+        width:450px;
+        position: absolute;
+    }
+    .video-tv{
+        height:250px;
+        width:350px;
+        position: static;
+        margin-left: 155px;
+    }
+    /*SECONDO CONTAINER*/
+    .desktop-video{
+        margin-left: -200px;
+    }
+    .second-text{
+        height:50px ;
+        margin-left: 450px;
+    }
+    /*TERZO CONTAINER*/
+    .third-text{
+        padding: 0;
+        margin-bottom: 100px;
+    }
+    /*QUARTO CONTAINER*/
+    .phone{
+        margin-left: 10px;
+    }
+    .fourth-text{
+        padding: 0;
+    }
+
+    .small-box{
+        margin-top: 370px;
+        margin-left: 90px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    body{
+        margin: 0;
+    }
+    .section{
+        padding: 70px 45px 70px 45px;
+        border-bottom: 8px solid rgb(45, 44, 44);
+    }
+    .contenitore{
+        display: flex;
+        padding: 0;
+        width: 934px;
+        height: 275px;
+        margin: 0;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .title:nth-child(1){
+        font-size: 50px;
+        width: 450px;
+    }
+    /*PRIMO CONTAINER*/
+    .section:nth-child(1){
+        height: 300px;
+    }
+    .first-text{
+        width: 430px;
+        height: 250px;
+        padding-bottom: 50px;
+    }
+    .contenitore-tv{
+        height: 350px;
+        width: 450px;
+    }
+    .tv-video{
+        display: flex;
+        height: 300px;
+        width: 500px;
+        justify-content: center;
+    }
+    .tv{
+        margin: 0;
+        width: 400px;
+        height: 300px;
+    }
+    .tv-img{
+        width: 400px;
+        height: 300px;
+    }
+    .video-tv{
+        margin: 0;
+        width: 400px;
+        height: 300px;
+    }
+    .video-tv-mp4{
+        width: 300px;
+        height: 200px;
+        padding-left: 50px;
+        padding-top: 45px;
+    }
+    /*SECONDO CONTAINER*/
+    .section:nth-child(2){
+        height: 300px;
+    }
+    .second-text{
+        margin: 0;
+        padding: 0;
+        height: 300px;
+        width: 450px;
+    }
+    .contenitore:nth-child(2){
+        width: 950px;
+    }
+    .second-text .title{
+        font-size: 50px;
+    }
+    .second-text .subtitle{
+        font-size: 25px;
+    }
+    .desktop-video{
+        margin: 0;
+        width: 350px;
+    }
+    .desktop{
+        width: 500px;
+        height: 350px;
+        padding: 0;
+    }
+    .video-desktop{
+        padding-left: 90px;
+    }
+    /*TERZO CONTAINER*/
+    .third-text{
+        margin: 0;
+    }
+    .section>.contenitore>.third-text>p{
+        width: 420px;
+    }
+    .img-kids{
+        width: 350px;
+        height: 300px;
+    }
+    .img-bambini{
+        width: 350px;
+        height: 300px;
+    }
+
+    /*QUARTO CONTAINER*/
+    .fourth-text{
+        width: 460px;
+    }
+    .section>.contenitore>.fourth-text>h1{
+        width: 500px;
+    }
+    .section>.contenitore>.fourth-text>p{
+        width: 400px;
+    }
+    .phone-small-box{
+        height: 280px;
+        
+    }
+    .phone{
+        width: 400px;
+        height: 280px;
+        margin: 0;
+    }
+    .small-box{
+        margin-left: 50px;
+
+    }
+    .phone-small-box{
+        align-items: flex-end;
+    }
+}
+@media screen and (max-width: 768px) {
+    /*PRIMO CONTAINER*/
+    .section{
+        width: 678px;
+        height: 550px !important;
+    }
+    .contenitore{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .contenitore:nth-child(2){
+        display: flex;
+    }
+    /*PRIMO CONTAINER*/
+    .first-text{
+        padding: 0;
+        height: 150px;
+        width: 678px ;
+        text-align: center;
+    }
+    .title:nth-child(1){
+        font-size: 45px;
+        width: 650px;
+    }
+    .contenitore-tv{
+        width: 500px;
+        height: 400px;
+    }
+    .tv{
+        width: 500px;
+        height: 400px;
+    }
+    .tv-img{
+        width: 500px;
+        height: 400px;
+    }
+    .video-tv{
+        width: 500px;
+        height: 400px;
+    }
+    .video-tv-mp4{
+        padding-top: 80px;
+        padding-left: 60px;
+        height: 220px;
+        width: 390px;
+    }
+    /*SECONDO CONTAINER*/
+    .section:nth-child(2) .contenitore{
+        flex-direction: column-reverse;
+    }
+    .section:nth-child(2) .contenitore .second-text {
+        width: 600px;
+        height: 150px;
+    }
+    .section:nth-child(2) .contenitore .second-text h1{
+        font-size: 40px;
+        height: 60px;
+        width: 600px;
+        text-align: center;
+    }
+    .section:nth-child(2) .contenitore .second-text p{
+    font-size: 20px;
+    }
+    .desktop-video{
+        width: 600px;
+        height: 450px;
+    }
+    .desktop{
+        width: 600px;
+        height: 450px;
+    }
+    .video-desktop{
+        height: 200px;
+        width: 390px;
+        padding-left: 90px;
+        padding-top: 50px;
+    }
+    /*TERZO CONTAINER*/
+    .third-text{
+        width: 650px;
+        height: 150px;
+    }
+    .section:nth-child(3) .contenitore .third-text .title{
+        width: 650px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .section:nth-child(3) .contenitore .third-text .subtitle{
+        width: 650px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .img-kids{
+        height: 450px;
+        width: 500px;
+    }
+    .img-bambini{
+        width: 550px;
+        height: 450px;
+    }
+    /*QUARTO CONTAINER*/
+    .section:nth-child(4) .contenitore{
+        flex-direction: column-reverse;
+    }
+    .fourth-text{
+        width: 650px;
+        height: 150px;
+        margin: 0;
+    }
+    .section:nth-child(4) .contenitore .fourth-text .title{
+        width: 650px;
+        text-align: center;
+        font-size: 40px;
+    }
+    .section:nth-child(4) .contenitore .fourth-text .subtitle{
+        width: 650px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .phone-small-box{
+        width: 500px;
+        height: 400px;
+        justify-content: center;
+    }
+    .phone-img{
+        width: 500px;
+        height: 400px;
+    }
+    .phone{
+        width: 550px;
+        height: 400px;
+    }
+    .small-box{
+        margin: 0;
+        margin-left: 50px;
+        margin-bottom: 30px;
+        width: 400px;
+        height: 80px;
+    }
+    .download-icon{
+        margin-left: 140px;
+    }
+}
+@media screen and (max-width: 425px) {
+    body{
+        margin: 0;
+    }
+    .section:nth-child(1){
+        width: auto !important ;
+        height: 500px;
+        padding: 50px 20px 50px 20px;
+    }
+    .contenitore{
+        width: 325px;
+        height: 500px;
+    }
+}
+@media screen and (max-width:320px) {
+    body{
+        margin: 0;
+        height: 100%;
+
+    }
+    .section:nth-child(1){
+        width: auto !important ;
+        height: 500px;
+        padding: 50px 20px 50px 20px;
+    }
+    .contenitore{
+        display: flex;
+        width: 325px;
+        height: 500px;
+    }
+}
