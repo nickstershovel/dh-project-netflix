@@ -1,0 +1,322 @@
+/*REGOLE GENERALI*//*REGOLE GENERALI*//*REGOLE GENERALI*/
+$mobile: 576px;
+$tablet: 768px;
+$desktop: 1024px;
+$large-desktop: 1200px;
+*{
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+html{
+    overflow-x:hidden;
+}
+:root{
+    --primary-color: #E50914;
+}
+a{
+    text-decoration: none;
+}
+.container, body{
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+/*FINE REGOLE GENERALI*//*FINE REGOLE GENERALI*//*FINE REGOLE GENERALI*/
+
+/*BANNER CSS*//*BANNER CSS*//*BANNER CSS*/
+.banner-container-fluid{
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    height: 66px;
+}
+    .banner-badge{
+        background-color: #e50914;
+        border-radius: 17px;
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin: 0.5rem 1rem;
+        padding: 0.2rem 0.5rem;
+        text-transform: uppercase;
+        @media screen and (max-width: $mobile){
+            font-size: 0.7rem;
+        }
+    }
+    .banner-text{
+        font-size: 1.2rem;
+        @media screen and (max-width: $mobile){
+            font-size: 14px;
+            flex-shrink: 6;
+        }
+    }
+    .banner-price{
+        font-size: 1.3rem;
+        font-weight: 800;
+        @media screen and (max-width: $mobile){
+            font-size: 0.9rem;
+        }
+    }
+    .banner-button{
+        align-items: center;
+        padding: 0 0 0 16px;
+        color: #0071eb;
+        margin-left: 0;
+        display: flex;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: 700;
+        justify-content: center;
+        @media screen and (max-width: $mobile){
+            font-size: 0.9rem;
+        }
+    }
+/*FINE BANNER CSS*//*FINE BANNER CSS*//*FINE BANNER CSS*/
+
+/*SHOWCASE CSS*//*SHOWCASE CSS*//*SHOWCASE CSS*/
+.showcase-logo{ //LOGO NETFLIX
+    fill: var(--primary-color);
+    margin-left: 1.5rem;
+    padding-top: 10px;
+    @media screen and (max-width: $mobile){
+        margin-left: 0rem;
+        position:relative;
+        top: -0.7rem;
+        left: -1rem;
+    }
+}
+.showcase-container{
+    width: 100%;
+    position: relative;
+    background: rgba(0, 0, 0, 0.6) url("../resources/netflixbackground.jpg") no-repeat center/cover;
+}
+    img{ //IMMAGINE DI SFONDO
+        width: 100%;
+    }
+    .showcase-top-container{ 
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 40px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .showcase-container::after { //OMBRA INTORNO IMMAGINE
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        background: rgba(0, 0, 0, 0.5);
+        box-shadow: inset 10px 10px 250px #000000, inset -10px -10px 250px #000000;
+    }
+    body div.select svg{ //SVG LANGUAGE
+        height: 16px;
+        position: absolute;
+        margin-left: 6px;
+        margin-top: 12px;
+        @media screen and (max-width: $mobile){
+            margin-top: 10px;
+            height: 15px;
+        }
+        @media screen and (max-width: 320px){
+            margin-top: 10px;
+            height: 13px;
+            margin-left:8px;
+    }
+    }
+    .language-login-wrapper{ //PULSANTI LANGUAGE E ACCEDI//
+        display:flex;
+        width: 200px;
+        height: 40px;
+        margin-right: 2.5rem;
+        align-items: center;
+        justify-content: center;
+        @media screen and (max-width:$mobile) {
+            margin-right: -1rem;
+            margin-top: -0.6rem;
+        }
+        .languageselector-btn{ //SELEZIONE LINGUA
+            line-height: 1.3em;
+            padding-left: 1.3rem;
+            padding-right: 0.1rem;
+            padding-top: 7px;
+            padding-bottom: 8px;
+            border: 1px solid #aaa;
+            background: rgba(0,0,0,.4);
+            color: #fff;
+            margin-right: 35px;
+            border-radius: 3px;
+            font-size: 1rem;
+            @media screen and (max-width: $mobile){
+                font-size: 0.7rem;
+            }
+            @media screen and (max-width: 320px){
+                font-size: 0.6rem;
+        }
+            .language{
+                background-color: lightgrey;
+                color: grey;
+        }
+    }
+        .loginbutton{ //PULSANTE ACCEDI
+            background: var(--primary-color);
+            color: #fff;
+            white-space: nowrap;
+            padding: 0.4rem 1.3rem;
+            font-size: 1.1rem;
+            font-weight: 400;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+            border-radius: 3px;
+            @media screen and (max-width: $mobile){
+                font-size: 0.7rem;
+            }
+                @media screen and (max-width: 320px){
+                    font-size: 0.6rem;
+            }
+        }
+    }
+
+    .showcase-content-container{ //CONTENUTO CENTRALE
+        color:white;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: transparent;
+        border-bottom: 8px solid #222;
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 0;
+        padding: 50px 5%;
+        padding-top: 10rem;
+        padding-bottom: 13rem;
+        position: relative;
+        h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            line-height: 1.1;
+            margin-bottom: 0.5rem;
+            @media screen and (max-width:$mobile){
+                font-size: 2rem;
+            }
+        }
+        h2{
+            font-size:2rem;
+            font-weight: 400;
+            margin-top: 10px;
+            @media screen and (max-width:$mobile){
+                font-size: 1.5rem;
+            }
+
+        }
+        h3{
+            font-size: 1.3rem;
+            padding-bottom: 40px;
+            font-weight: 400;
+            margin-top: 30px;
+            padding: 0 5%;
+            margin-bottom: 10px;
+            @media screen and (max-width:$mobile){
+                font-size: 1.2rem;
+            }
+        }
+    }
+    //RESPONSIVE EMAIL INPUT//
+    input[type="email"]:focus::placeholder{
+        font-size: 13px;
+        transform: translateY(-100%);
+        transition-duration: 0.1s;
+    }
+    input[type="email"]:not(:focus)::placeholder{
+        font-size: 16px;
+        transition-duration: 0.1s;
+    }
+    //FINE RESPONSIVE EMAIL INPUT//
+    .email-form-container{ 
+        padding-top: 1rem;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        .email-input{
+            height: 70px;
+            border: 1px solid #8c8c8c;
+            border-radius: 2px;
+            color: #000;
+            font-size: 16px;
+            padding: 10px 11px;
+            outline:none;
+            &:focus{
+                border: 1px solid blue;
+            }
+    }
+    }
+    .email-send{
+        background: var(--primary-color);
+        color: #fff;
+        height: 70px;
+        padding: 1rem 2rem;
+        padding-right: 1.5rem;
+        padding-left: 1.8rem;
+        font-size: 2.0rem;
+        line-height: 2rem;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+        border-radius: 2px;
+    }
+    
+/*FINE SHOWCASE CSS*//*FINE SHOWCASE CSS*//* FINE SHOWCASE CSS*/
+
+/*MEDIA QUERY*//*MEDIA QUERY*//*MEDIA QUERY*/
+@media screen and (max-width: $mobile){
+        .showcase-netflix-logo{
+            width: 88.8px;
+            height: 24px;
+        }
+        .email-send{
+            margin-top: 20px;
+        }
+        .email-input{
+            width: 400px;
+        }
+}
+@media screen and (max-width: 320px){
+    .showcase-netflix-logo{
+        width: 88.8px;
+        height: 24px;
+    }
+    .email-send{
+        margin-top: 20px;
+    }
+    .email-input{
+        width: 300px;
+    }
+    .select{
+        width: 100px;
+        margin-right: -10px;
+        margin-left: 25px;
+    }
+}
+@media screen and (max-width: 376px){
+.email-input{
+    width: 300px;
+}
+}
+@media screen and (min-width: $tablet){
+    .email-input{
+        width: 500px;
+    }
+}
+/*FINE MEDIA QUERY*//*FINE MEDIA QUERY*//*FINE MEDIA QUERY*/
